@@ -1,0 +1,393 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>MALYA</Machine>
+    <WindowsUser>Malya Rao</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\bin\Debug\Sahaya.exe">
+      <PackagePath>Sahaya.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\bin\Debug\Sahaya.pdb">
+      <PackagePath>Sahaya.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\Assets\WideLogo.scale-100.png">
+      <PackagePath>Assets\WideLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\aloevera.png">
+      <PackagePath>images\aloevera.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\amaryllis.png">
+      <PackagePath>images\amaryllis.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\amazonlily.png">
+      <PackagePath>images\amazonlily.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\arborvitae.png">
+      <PackagePath>images\arborvitae.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\arrowhead.png">
+      <PackagePath>images\arrowhead.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\ash.png">
+      <PackagePath>images\ash.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\aspen.png">
+      <PackagePath>images\aspen.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\banana.png">
+      <PackagePath>images\banana.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\barberry.png">
+      <PackagePath>images\barberry.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\bayberry.png">
+      <PackagePath>images\bayberry.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\beam.png">
+      <PackagePath>images\beam.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\beatroot.png">
+      <PackagePath>images\beatroot.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\beautyberry.png">
+      <PackagePath>images\beautyberry.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\beech.png">
+      <PackagePath>images\beech.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\birch.png">
+      <PackagePath>images\birch.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\blackpepper.png">
+      <PackagePath>images\blackpepper.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\boxwood.png">
+      <PackagePath>images\boxwood.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\bradford.png">
+      <PackagePath>images\bradford.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\bushanemone.png">
+      <PackagePath>images\bushanemone.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\bushpoppy.png">
+      <PackagePath>images\bushpoppy.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\butterflybush.png">
+      <PackagePath>images\butterflybush.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\cabbage.png">
+      <PackagePath>images\cabbage.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\camellia.png">
+      <PackagePath>images\camellia.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\caraway.png">
+      <PackagePath>images\caraway.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\carolina.png">
+      <PackagePath>images\carolina.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\carrot.png">
+      <PackagePath>images\carrot.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\catnip.png">
+      <PackagePath>images\catnip.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\cauliflower.png">
+      <PackagePath>images\cauliflower.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\cedar.png">
+      <PackagePath>images\cedar.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\chamomile.png">
+      <PackagePath>images\chamomile.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\chervil.png">
+      <PackagePath>images\chervil.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\coconut.png">
+      <PackagePath>images\coconut.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\comfrey.png">
+      <PackagePath>images\comfrey.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\coriander.png">
+      <PackagePath>images\coriander.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\corn.png">
+      <PackagePath>images\corn.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\croton.png">
+      <PackagePath>images\croton.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\cuban.png">
+      <PackagePath>images\cuban.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\cucumber.png">
+      <PackagePath>images\cucumber.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\dieffenbachia.png">
+      <PackagePath>images\dieffenbachia.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\dracaena.png">
+      <PackagePath>images\dracaena.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\duckweed.png">
+      <PackagePath>images\duckweed.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\eggplant.png">
+      <PackagePath>images\eggplant.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\epazote.png">
+      <PackagePath>images\epazote.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\fairy.png">
+      <PackagePath>images\fairy.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\fennel.png">
+      <PackagePath>images\fennel.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\ginger.png">
+      <PackagePath>images\ginger.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\group1.png">
+      <PackagePath>images\group1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\group2.png">
+      <PackagePath>images\group2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\group3.png">
+      <PackagePath>images\group3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\group4.png">
+      <PackagePath>images\group4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\group5.png">
+      <PackagePath>images\group5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\group6.png">
+      <PackagePath>images\group6.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\help.png">
+      <PackagePath>images\help.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\help1.png">
+      <PackagePath>images\help1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\help2.png">
+      <PackagePath>images\help2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\help3.png">
+      <PackagePath>images\help3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\help4.png">
+      <PackagePath>images\help4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\help5.png">
+      <PackagePath>images\help5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\help6.png">
+      <PackagePath>images\help6.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\help7.png">
+      <PackagePath>images\help7.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\help8.png">
+      <PackagePath>images\help8.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\horehound.png">
+      <PackagePath>images\horehound.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\hornbeam.png">
+      <PackagePath>images\hornbeam.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\hyacinth.png">
+      <PackagePath>images\hyacinth.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\item10.png">
+      <PackagePath>images\item10.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\ivy.png">
+      <PackagePath>images\ivy.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\jade.png">
+      <PackagePath>images\jade.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\kalanchoe.png">
+      <PackagePath>images\kalanchoe.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\lettuce.png">
+      <PackagePath>images\lettuce.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\lotus.png">
+      <PackagePath>images\lotus.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\main1.png">
+      <PackagePath>images\main1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\main2.png">
+      <PackagePath>images\main2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\main3.png">
+      <PackagePath>images\main3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\main4.png">
+      <PackagePath>images\main4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\main5.png">
+      <PackagePath>images\main5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\marsh.png">
+      <PackagePath>images\marsh.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\moth.png">
+      <PackagePath>images\moth.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\neem.png">
+      <PackagePath>images\neem.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\norfolk.png">
+      <PackagePath>images\norfolk.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\okra.png">
+      <PackagePath>images\okra.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\onion.png">
+      <PackagePath>images\onion.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\orchid.png">
+      <PackagePath>images\orchid.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\palm.png">
+      <PackagePath>images\palm.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\papyrus.png">
+      <PackagePath>images\papyrus.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\parrotfeather.png">
+      <PackagePath>images\parrotfeather.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\peacelily.png">
+      <PackagePath>images\peacelily.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\persimmon.png">
+      <PackagePath>images\persimmon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\pitcher.png">
+      <PackagePath>images\pitcher.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\potato.png">
+      <PackagePath>images\potato.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\redgem.png">
+      <PackagePath>images\redgem.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\saciety.png">
+      <PackagePath>images\saciety.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\sahaya.png">
+      <PackagePath>images\sahaya.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\Screenshot %28156%29.png">
+      <PackagePath>images\Screenshot %28156%29.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\Screenshot %28157%29.png">
+      <PackagePath>images\Screenshot %28157%29.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\Screenshot %28158%29.png">
+      <PackagePath>images\Screenshot %28158%29.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\Screenshot %28162%29.png">
+      <PackagePath>images\Screenshot %28162%29.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\Screenshot %28165%29.png">
+      <PackagePath>images\Screenshot %28165%29.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\snowflake.png">
+      <PackagePath>images\snowflake.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\teak.png">
+      <PackagePath>images\teak.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\thalia.png">
+      <PackagePath>images\thalia.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\tree.png">
+      <PackagePath>images\tree.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\tree1.png">
+      <PackagePath>images\tree1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\tree2.png">
+      <PackagePath>images\tree2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\tree3.png">
+      <PackagePath>images\tree3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\waterarrow.png">
+      <PackagePath>images\waterarrow.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\waterlily.png">
+      <PackagePath>images\waterlily.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\Common\ReadMe.txt">
+      <PackagePath>Common\ReadMe.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\bin\Debug\GroupDetailPage1.xaml">
+      <PackagePath>GroupDetailPage1.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\bin\Debug\GroupedItemsPage1.xaml">
+      <PackagePath>GroupedItemsPage1.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\bin\Debug\ItemDetailPage1.xaml">
+      <PackagePath>ItemDetailPage1.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\bin\Debug\ItemDetailPage2.xaml">
+      <PackagePath>ItemDetailPage2.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\bin\Debug\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\bin\Debug\SearchResultsPage1.xaml">
+      <PackagePath>SearchResultsPage1.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3B5CC388-6320-496A-871A-D12BE3E3B8BF}</ProjectGuid>
+    <OutputType>AppContainerExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Sahaya</RootNamespace>
+    <AssemblyName>Sahaya</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{BC8A1FFA-BEE3-4634-8014-F334798102B3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PackageCertificateKeyFile>Sahaya_TemporaryKey.pfx</PackageCertificateKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <OutputPath>bin\ARM\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Common\BindableBase.cs" />
+    <Compile Include="Common\BooleanNegationConverter.cs" />
+    <Compile Include="Common\BooleanToVisibilityConverter.cs" />
+    <Compile Include="Common\LayoutAwarePage.cs" />
+    <Compile Include="Common\RichTextColumns.cs" />
+    <Compile Include="Common\SuspensionManager.cs" />
+    <Compile Include="data.cs" />
+    <Compile Include="GroupDetailPage1.xaml.cs">
+      <DependentUpon>GroupDetailPage1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GroupedItemsPage1.xaml.cs">
+      <DependentUpon>GroupedItemsPage1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ItemDetailPage1.xaml.cs">
+      <DependentUpon>ItemDetailPage1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ItemDetailPage2.xaml.cs">
+      <DependentUpon>ItemDetailPage2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SearchResultsPage1.xaml.cs">
+      <DependentUpon>SearchResultsPage1.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <None Include="Properties\ServiceReferences.Designer.ClientConfig" />
+    <None Include="Sahaya_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\Logo.png" />
+    <Content Include="Assets\SmallLogo.png" />
+    <Content Include="Assets\SplashScreen.png" />
+    <Content Include="Assets\StoreLogo.png" />
+    <Content Include="Assets\WideLogo.scale-100.png" />
+    <Content Include="Common\ReadMe.txt" />
+    <Content Include="images\aloevera.png" />
+    <Content Include="images\amaryllis.png" />
+    <Content Include="images\amazonlily.png" />
+    <Content Include="images\arborvitae.png" />
+    <Content Include="images\arrowhead.png" />
+    <Content Include="images\ash.png" />
+    <Content Include="images\aspen.png" />
+    <Content Include="images\banana.png" />
+    <Content Include="images\barberry.png" />
+    <Content Include="images\bayberry.png" />
+    <Content Include="images\beam.png" />
+    <Content Include="images\beatroot.png" />
+    <Content Include="images\beautyberry.png" />
+    <Content Include="images\beech.png" />
+    <Content Include="images\birch.png" />
+    <Content Include="images\blackpepper.png" />
+    <Content Include="images\boxwood.png" />
+    <Content Include="images\bradford.png" />
+    <Content Include="images\bushanemone.png" />
+    <Content Include="images\bushpoppy.png" />
+    <Content Include="images\butterflybush.png" />
+    <Content Include="images\cabbage.png" />
+    <Content Include="images\camellia.png" />
+    <Content Include="images\caraway.png" />
+    <Content Include="images\carolina.png" />
+    <Content Include="images\carrot.png" />
+    <Content Include="images\catnip.png" />
+    <Content Include="images\cauliflower.png" />
+    <Content Include="images\cedar.png" />
+    <Content Include="images\chamomile.png" />
+    <Content Include="images\chervil.png" />
+    <Content Include="images\coconut.png" />
+    <Content Include="images\comfrey.png" />
+    <Content Include="images\coriander.png" />
+    <Content Include="images\corn.png" />
+    <Content Include="images\croton.png" />
+    <Content Include="images\cuban.png" />
+    <Content Include="images\cucumber.png" />
+    <Content Include="images\dieffenbachia.png" />
+    <Content Include="images\dracaena.png" />
+    <Content Include="images\duckweed.png" />
+    <Content Include="images\eggplant.png" />
+    <Content Include="images\epazote.png" />
+    <Content Include="images\fairy.png" />
+    <Content Include="images\fennel.png" />
+    <Content Include="images\ginger.png" />
+    <Content Include="images\group1.png" />
+    <Content Include="images\group2.png" />
+    <Content Include="images\group3.png" />
+    <Content Include="images\group4.png" />
+    <Content Include="images\group5.png" />
+    <Content Include="images\group6.png" />
+    <Content Include="images\help.png" />
+    <Content Include="images\help1.png" />
+    <Content Include="images\help2.png" />
+    <Content Include="images\help3.png" />
+    <Content Include="images\help4.png" />
+    <Content Include="images\help5.png" />
+    <Content Include="images\help6.png" />
+    <Content Include="images\help7.png" />
+    <Content Include="images\help8.png" />
+    <Content Include="images\horehound.png" />
+    <Content Include="images\hornbeam.png" />
+    <Content Include="images\hyacinth.png" />
+    <Content Include="images\item10.png" />
+    <Content Include="images\ivy.png" />
+    <Content Include="images\jade.png" />
+    <Content Include="images\kalanchoe.png" />
+    <Content Include="images\lettuce.png" />
+    <Content Include="images\lotus.png" />
+    <Content Include="images\main1.png" />
+    <Content Include="images\main2.png" />
+    <Content Include="images\main3.png" />
+    <Content Include="images\main4.png" />
+    <Content Include="images\main5.png" />
+    <Content Include="images\marsh.png" />
+    <Content Include="images\moth.png" />
+    <Content Include="images\neem.png" />
+    <Content Include="images\norfolk.png" />
+    <Content Include="images\okra.png" />
+    <Content Include="images\onion.png" />
+    <Content Include="images\orchid.png" />
+    <Content Include="images\palm.png" />
+    <Content Include="images\papyrus.png" />
+    <Content Include="images\parrotfeather.png" />
+    <Content Include="images\peacelily.png" />
+    <Content Include="images\persimmon.png" />
+    <Content Include="images\pitcher.png" />
+    <Content Include="images\potato.png" />
+    <Content Include="images\redgem.png" />
+    <Content Include="images\saciety.png" />
+    <Content Include="images\sahaya.png" />
+    <Content Include="images\Screenshot %28156%29.png" />
+    <Content Include="images\Screenshot %28157%29.png" />
+    <Content Include="images\Screenshot %28158%29.png" />
+    <Content Include="images\Screenshot %28162%29.png" />
+    <Content Include="images\Screenshot %28165%29.png" />
+    <Content Include="images\snowflake.png" />
+    <Content Include="images\teak.png" />
+    <Content Include="images\thalia.png" />
+    <Content Include="images\tree.png" />
+    <Content Include="images\tree1.png" />
+    <Content Include="images\tree2.png" />
+    <Content Include="images\tree3.png" />
+    <Content Include="images\waterarrow.png" />
+    <Content Include="images\waterlily.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="Common\StandardStyles.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="GroupDetailPage1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="GroupedItemsPage1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ItemDetailPage1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ItemDetailPage2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SearchResultsPage1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '11.0' ">
+    <VisualStudioVersion>11.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

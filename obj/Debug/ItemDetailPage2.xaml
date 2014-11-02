@@ -1,0 +1,67 @@
+﻿<common:LayoutAwarePage
+    x:Name="pageRoot"
+    x:Class="Sahaya.ItemDetailPage2"
+    DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Sahaya"
+    xmlns:common="using:Sahaya.Common"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+
+        <!-- Collection of items displayed by this page -->
+        <CollectionViewSource
+            x:Name="itemsViewSource"
+            Source="{Binding Items}"/>
+    </Page.Resources>
+
+    <!--
+        This grid acts as a root panel for the page that defines two rows:
+        * Row 0 contains the back button and page title
+        * Row 1 contains the rest of the page layout
+    -->
+    <Grid Style="{StaticResource LayoutRootStyle}" Background="{StaticResource DefaultTextForegroundThemeBrush}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="565*"/>
+            <ColumnDefinition Width="801*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="140"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--
+            The remainder of the page is one large FlipView that displays details for
+            one item at a time, allowing the user to flip through all items in the chosen
+            group
+        -->
+        <TextBox x:Name="t2" HorizontalAlignment="Left" Margin="10,278,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Message : " VerticalAlignment="Top" Height="312" Width="606" Grid.ColumnSpan="2" BorderBrush="#FF7E7676"/>
+        <TextBox x:Name="t1" HorizontalAlignment="Left" Height="46" TextWrapping="Wrap" Text="Subject : " VerticalAlignment="Top" Width="606" Margin="10,203,0,0" Grid.Row="1" Grid.ColumnSpan="2" BorderBrush="#FF7E7676"/>
+        <Image HorizontalAlignment="Left" Height="150" Margin="98,30,0,0" VerticalAlignment="Top" Width="176"
+        	Source="images/sahaya.png" Stretch="Fill" Grid.RowSpan="2"/>
+        <TextBlock x:Name="mc" HorizontalAlignment="Left" Margin="306,106,0,0" TextWrapping="Wrap" Text="Helping Environment and Human" VerticalAlignment="Top" Height="34" Width="465" Foreground="#FF4169D3" FontSize="30" FontStyle="Italic" Grid.ColumnSpan="2"/>
+        <TextBlock x:Name="txtblck2" HorizontalAlignment="Left" Margin="235,26,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="104" Width="566" Foreground="#FF0E0D0D" FontSize="20" FontStyle="Italic" Text="Here you can send your feedback, doubts about Greenary, problem in some of the greenary, deforestration, problems going on in the city. We will Consider all of your request. We will try to Help you in Solving those problems." Grid.Column="1"/>
+        <TextBlock x:Name="txtblck2_Copy1" HorizontalAlignment="Left" Margin="235,0,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="26" Width="566" Foreground="#FF0E0D0D" FontSize="20" FontStyle="Italic" Text="Go to Share. Enter Our Mail-id in To address" Grid.Column="1" Grid.Row="1"/>
+
+        <FlipView x:Name="TheFlipView" Margin="155,120,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="636" Height="500" Grid.Column="1" Grid.Row="1" BorderBrush="Black" Foreground="Black" Background="Black">
+
+            <Image Source="images/Screenshot (157).png" Stretch="Fill" Width="616" Height="480"  />
+            <Image Stretch="Fill" Source="images/Screenshot (158).png" Width="616" Height="480" />
+            <Image Stretch="Fill" Source="images/Screenshot (156).png" Width="616" Height="480"/>
+            <Image Stretch="Fill" Source="images/Screenshot (165).png" Width="616" Height="480"/>
+            <Image Source="images/Screenshot (162).png" Stretch="Fill" Width="616" Height="480" />
+
+
+
+        </FlipView>
+        <Button x:ConnectionId='1' Content="Button" HorizontalAlignment="Left" Margin="10,20,0,0" VerticalAlignment="Top" Style="{StaticResource BackButtonStyle}"                     />
+        <TextBlock x:Name="txtblck2_Copy2" HorizontalAlignment="Left" Margin="235,26,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="26" Width="566" Foreground="#FF0E0D0D" FontSize="20" FontStyle="Italic" Text="sahayagreenary@outlook.com" Grid.Column="1" Grid.Row="1" FontWeight="Bold"/>
+        <TextBlock x:Name="txtblck2_Copy3" HorizontalAlignment="Left" Margin="235,86,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="26" Width="566" Foreground="#FF0E0D0D" FontSize="20" FontStyle="Italic" Text="Follow the images in case of reference to send mail." Grid.Column="1" Grid.Row="1" />
+        <TextBlock x:Name="txtblck2_Copy4" HorizontalAlignment="Left" Margin="10,120,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="41" Width="566" Foreground="#FF0E0D0D" FontSize="26" FontStyle="Italic" Text="Contact us for your problem" Grid.ColumnSpan="2" Grid.Row="1"/>
+        <TextBlock x:Name="txtblck2_Copy5" HorizontalAlignment="Left" Margin="404,14,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="26" Width="566" Foreground="#FF0E0D0D" FontSize="20" FontStyle="Italic" Text="sahayagreenary@outlook.com" Grid.Row="1" FontWeight="Bold" Grid.ColumnSpan="2"/>
+    </Grid>
+</common:LayoutAwarePage>
+

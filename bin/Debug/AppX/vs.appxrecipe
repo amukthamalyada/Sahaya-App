@@ -1,0 +1,523 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>MALYA</Machine>
+    <WindowsUser>Malya Rao</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>71A32AD8458329838FC3596CDA802FA824E0A2ADB71C628ECE0363B358C6C5E6</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>72f0c9bb-3fdd-4f18-9f4b-7036cf706ccd_1.0.0.0_neutral__q2ksp5fbtwwjm</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>72f0c9bb-3fdd-4f18-9f4b-7036cf706ccd_q2ksp5fbtwwjm!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>72f0c9bb-3fdd-4f18-9f4b-7036cf706ccd</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Malya Rao</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-10-23T17:08:41.640</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\bin\Debug\Sahaya.exe">
+      <PackagePath>Sahaya.exe</PackagePath>
+      <Modified>2014-10-27T10:51:15.822</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\bin\Debug\Sahaya.pdb">
+      <PackagePath>Sahaya.pdb</PackagePath>
+      <Modified>2014-10-27T10:51:15.773</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-10-23T16:44:02.828</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-10-23T16:47:49.013</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-10-23T17:00:40.112</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-10-23T16:52:59.275</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\Assets\WideLogo.scale-100.png">
+      <PackagePath>Assets\WideLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-10-23T17:11:17.763</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\aloevera.png">
+      <PackagePath>images\aloevera.png</PackagePath>
+      <Modified>2014-10-16T09:26:42.954</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\amaryllis.png">
+      <PackagePath>images\amaryllis.png</PackagePath>
+      <Modified>2014-10-16T11:00:52.555</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\amazonlily.png">
+      <PackagePath>images\amazonlily.png</PackagePath>
+      <Modified>2014-10-16T11:42:02.952</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\arborvitae.png">
+      <PackagePath>images\arborvitae.png</PackagePath>
+      <Modified>2014-10-16T08:42:36.323</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\arrowhead.png">
+      <PackagePath>images\arrowhead.png</PackagePath>
+      <Modified>2014-10-16T11:01:25.027</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\ash.png">
+      <PackagePath>images\ash.png</PackagePath>
+      <Modified>2014-10-08T06:32:30.565</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\aspen.png">
+      <PackagePath>images\aspen.png</PackagePath>
+      <Modified>2014-09-27T11:56:05.727</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\banana.png">
+      <PackagePath>images\banana.png</PackagePath>
+      <Modified>2014-10-16T08:42:56.651</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\barberry.png">
+      <PackagePath>images\barberry.png</PackagePath>
+      <Modified>2014-10-16T08:43:59.076</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\bayberry.png">
+      <PackagePath>images\bayberry.png</PackagePath>
+      <Modified>2014-10-16T09:27:01.596</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\beam.png">
+      <PackagePath>images\beam.png</PackagePath>
+      <Modified>2014-10-16T10:21:52.698</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\beatroot.png">
+      <PackagePath>images\beatroot.png</PackagePath>
+      <Modified>2014-10-16T10:22:10.172</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\beautyberry.png">
+      <PackagePath>images\beautyberry.png</PackagePath>
+      <Modified>2014-10-16T08:44:20.638</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\beech.png">
+      <PackagePath>images\beech.png</PackagePath>
+      <Modified>2014-10-16T08:11:21.445</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\birch.png">
+      <PackagePath>images\birch.png</PackagePath>
+      <Modified>2014-10-16T08:12:23.482</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\blackpepper.png">
+      <PackagePath>images\blackpepper.png</PackagePath>
+      <Modified>2014-10-16T11:01:56.447</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\boxwood.png">
+      <PackagePath>images\boxwood.png</PackagePath>
+      <Modified>2014-10-16T08:44:41.048</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\bradford.png">
+      <PackagePath>images\bradford.png</PackagePath>
+      <Modified>2014-10-16T08:12:36.897</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\bushanemone.png">
+      <PackagePath>images\bushanemone.png</PackagePath>
+      <Modified>2014-10-16T08:46:06.072</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\bushpoppy.png">
+      <PackagePath>images\bushpoppy.png</PackagePath>
+      <Modified>2014-10-16T08:45:22.011</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\butterflybush.png">
+      <PackagePath>images\butterflybush.png</PackagePath>
+      <Modified>2014-10-16T08:45:43.444</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\cabbage.png">
+      <PackagePath>images\cabbage.png</PackagePath>
+      <Modified>2014-10-16T10:22:41.421</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\camellia.png">
+      <PackagePath>images\camellia.png</PackagePath>
+      <Modified>2014-10-16T08:46:27.203</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\caraway.png">
+      <PackagePath>images\caraway.png</PackagePath>
+      <Modified>2014-10-16T09:26:24.895</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\carolina.png">
+      <PackagePath>images\carolina.png</PackagePath>
+      <Modified>2014-10-16T08:46:45.082</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\carrot.png">
+      <PackagePath>images\carrot.png</PackagePath>
+      <Modified>2014-10-16T10:23:07.391</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\catnip.png">
+      <PackagePath>images\catnip.png</PackagePath>
+      <Modified>2014-10-16T09:27:33.051</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\cauliflower.png">
+      <PackagePath>images\cauliflower.png</PackagePath>
+      <Modified>2014-10-16T10:23:32.387</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\cedar.png">
+      <PackagePath>images\cedar.png</PackagePath>
+      <Modified>2014-10-08T06:52:46.424</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\chamomile.png">
+      <PackagePath>images\chamomile.png</PackagePath>
+      <Modified>2014-10-16T09:29:18.987</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\chervil.png">
+      <PackagePath>images\chervil.png</PackagePath>
+      <Modified>2014-10-16T09:28:00.540</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\coconut.png">
+      <PackagePath>images\coconut.png</PackagePath>
+      <Modified>2014-10-08T06:57:24.446</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\comfrey.png">
+      <PackagePath>images\comfrey.png</PackagePath>
+      <Modified>2014-10-16T09:29:37.797</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\coriander.png">
+      <PackagePath>images\coriander.png</PackagePath>
+      <Modified>2014-10-16T09:28:52.816</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\corn.png">
+      <PackagePath>images\corn.png</PackagePath>
+      <Modified>2014-10-16T10:23:56.818</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\croton.png">
+      <PackagePath>images\croton.png</PackagePath>
+      <Modified>2014-10-16T11:02:48.159</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\cuban.png">
+      <PackagePath>images\cuban.png</PackagePath>
+      <Modified>2014-10-16T09:29:52.438</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\cucumber.png">
+      <PackagePath>images\cucumber.png</PackagePath>
+      <Modified>2014-10-16T10:24:19.264</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\dieffenbachia.png">
+      <PackagePath>images\dieffenbachia.png</PackagePath>
+      <Modified>2014-10-16T11:02:25.200</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\dracaena.png">
+      <PackagePath>images\dracaena.png</PackagePath>
+      <Modified>2014-10-16T11:03:21.050</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\duckweed.png">
+      <PackagePath>images\duckweed.png</PackagePath>
+      <Modified>2014-10-16T11:42:25.686</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\eggplant.png">
+      <PackagePath>images\eggplant.png</PackagePath>
+      <Modified>2014-10-16T10:24:52.447</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\epazote.png">
+      <PackagePath>images\epazote.png</PackagePath>
+      <Modified>2014-10-16T09:30:11.923</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\fairy.png">
+      <PackagePath>images\fairy.png</PackagePath>
+      <Modified>2014-10-16T11:43:23.861</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\fennel.png">
+      <PackagePath>images\fennel.png</PackagePath>
+      <Modified>2014-10-16T10:25:11.103</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\ginger.png">
+      <PackagePath>images\ginger.png</PackagePath>
+      <Modified>2014-10-16T09:31:17.587</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\group1.png">
+      <PackagePath>images\group1.png</PackagePath>
+      <Modified>2014-10-16T08:34:28.749</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\group2.png">
+      <PackagePath>images\group2.png</PackagePath>
+      <Modified>2014-10-16T08:38:48.248</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\group3.png">
+      <PackagePath>images\group3.png</PackagePath>
+      <Modified>2014-10-16T09:33:47.216</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\group4.png">
+      <PackagePath>images\group4.png</PackagePath>
+      <Modified>2014-10-16T12:45:36.070</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\group5.png">
+      <PackagePath>images\group5.png</PackagePath>
+      <Modified>2014-10-16T11:00:32.609</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\group6.png">
+      <PackagePath>images\group6.png</PackagePath>
+      <Modified>2014-10-16T11:40:20.588</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\help.png">
+      <PackagePath>images\help.png</PackagePath>
+      <Modified>2014-09-23T06:52:11.916</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\help1.png">
+      <PackagePath>images\help1.png</PackagePath>
+      <Modified>2014-09-23T06:54:41.958</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\help2.png">
+      <PackagePath>images\help2.png</PackagePath>
+      <Modified>2014-09-23T06:55:47.600</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\help3.png">
+      <PackagePath>images\help3.png</PackagePath>
+      <Modified>2014-09-23T06:56:40.840</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\help4.png">
+      <PackagePath>images\help4.png</PackagePath>
+      <Modified>2014-09-23T06:57:53.848</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\help5.png">
+      <PackagePath>images\help5.png</PackagePath>
+      <Modified>2014-09-23T06:58:23.125</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\help6.png">
+      <PackagePath>images\help6.png</PackagePath>
+      <Modified>2014-09-23T06:58:46.722</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\help7.png">
+      <PackagePath>images\help7.png</PackagePath>
+      <Modified>2014-09-23T07:13:06.842</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\help8.png">
+      <PackagePath>images\help8.png</PackagePath>
+      <Modified>2014-09-23T07:17:17.269</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\horehound.png">
+      <PackagePath>images\horehound.png</PackagePath>
+      <Modified>2014-10-16T09:31:43.185</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\hornbeam.png">
+      <PackagePath>images\hornbeam.png</PackagePath>
+      <Modified>2014-09-27T06:24:45.111</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\hyacinth.png">
+      <PackagePath>images\hyacinth.png</PackagePath>
+      <Modified>2014-10-16T11:46:36.164</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\item10.png">
+      <PackagePath>images\item10.png</PackagePath>
+      <Modified>2014-10-16T08:10:59.895</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\ivy.png">
+      <PackagePath>images\ivy.png</PackagePath>
+      <Modified>2014-10-16T11:03:34.389</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\jade.png">
+      <PackagePath>images\jade.png</PackagePath>
+      <Modified>2014-10-16T11:03:51.696</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\kalanchoe.png">
+      <PackagePath>images\kalanchoe.png</PackagePath>
+      <Modified>2014-10-16T11:04:11.729</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\lettuce.png">
+      <PackagePath>images\lettuce.png</PackagePath>
+      <Modified>2014-10-16T11:46:13.413</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\lotus.png">
+      <PackagePath>images\lotus.png</PackagePath>
+      <Modified>2014-10-16T11:43:28.756</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\main1.png">
+      <PackagePath>images\main1.png</PackagePath>
+      <Modified>2014-09-23T06:48:41.128</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\main2.png">
+      <PackagePath>images\main2.png</PackagePath>
+      <Modified>2014-09-23T06:48:49.487</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\main3.png">
+      <PackagePath>images\main3.png</PackagePath>
+      <Modified>2014-09-23T06:49:12.989</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\main4.png">
+      <PackagePath>images\main4.png</PackagePath>
+      <Modified>2014-09-23T07:00:26.801</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\main5.png">
+      <PackagePath>images\main5.png</PackagePath>
+      <Modified>2014-09-23T07:02:40.664</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\marsh.png">
+      <PackagePath>images\marsh.png</PackagePath>
+      <Modified>2014-10-16T11:43:53.441</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\moth.png">
+      <PackagePath>images\moth.png</PackagePath>
+      <Modified>2014-10-16T11:04:41.223</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\neem.png">
+      <PackagePath>images\neem.png</PackagePath>
+      <Modified>2014-09-27T19:49:35.761</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\norfolk.png">
+      <PackagePath>images\norfolk.png</PackagePath>
+      <Modified>2014-10-16T11:05:01.362</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\okra.png">
+      <PackagePath>images\okra.png</PackagePath>
+      <Modified>2014-10-16T10:25:27.782</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\onion.png">
+      <PackagePath>images\onion.png</PackagePath>
+      <Modified>2014-10-16T10:26:01.541</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\orchid.png">
+      <PackagePath>images\orchid.png</PackagePath>
+      <Modified>2014-09-27T08:07:36.915</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\palm.png">
+      <PackagePath>images\palm.png</PackagePath>
+      <Modified>2014-10-16T11:34:58.276</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\papyrus.png">
+      <PackagePath>images\papyrus.png</PackagePath>
+      <Modified>2014-10-16T11:44:09.510</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\parrotfeather.png">
+      <PackagePath>images\parrotfeather.png</PackagePath>
+      <Modified>2014-10-16T11:44:50.928</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\peacelily.png">
+      <PackagePath>images\peacelily.png</PackagePath>
+      <Modified>2014-10-16T11:05:19.210</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\persimmon.png">
+      <PackagePath>images\persimmon.png</PackagePath>
+      <Modified>2014-09-27T06:36:19.059</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\pitcher.png">
+      <PackagePath>images\pitcher.png</PackagePath>
+      <Modified>2014-10-16T11:45:45.855</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\potato.png">
+      <PackagePath>images\potato.png</PackagePath>
+      <Modified>2014-10-16T10:26:22.476</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\redgem.png">
+      <PackagePath>images\redgem.png</PackagePath>
+      <Modified>2014-10-16T08:41:40.484</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\saciety.png">
+      <PackagePath>images\saciety.png</PackagePath>
+      <Modified>2014-10-16T11:45:30.806</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\sahaya.png">
+      <PackagePath>images\sahaya.png</PackagePath>
+      <Modified>2014-09-23T08:01:40.877</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\Screenshot %28156%29.png">
+      <PackagePath>images\Screenshot %28156%29.png</PackagePath>
+      <Modified>2014-10-23T13:45:08.705</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\Screenshot %28157%29.png">
+      <PackagePath>images\Screenshot %28157%29.png</PackagePath>
+      <Modified>2014-10-23T13:46:51.622</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\Screenshot %28158%29.png">
+      <PackagePath>images\Screenshot %28158%29.png</PackagePath>
+      <Modified>2014-10-23T13:47:38.359</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\Screenshot %28162%29.png">
+      <PackagePath>images\Screenshot %28162%29.png</PackagePath>
+      <Modified>2014-10-23T14:02:58.663</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\Screenshot %28165%29.png">
+      <PackagePath>images\Screenshot %28165%29.png</PackagePath>
+      <Modified>2014-10-23T14:04:58.727</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\snowflake.png">
+      <PackagePath>images\snowflake.png</PackagePath>
+      <Modified>2014-10-16T11:47:02.417</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\teak.png">
+      <PackagePath>images\teak.png</PackagePath>
+      <Modified>2014-10-08T05:57:17.103</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\thalia.png">
+      <PackagePath>images\thalia.png</PackagePath>
+      <Modified>2014-10-16T11:45:58.947</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\tree.png">
+      <PackagePath>images\tree.png</PackagePath>
+      <Modified>2014-09-23T06:36:42.723</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\tree1.png">
+      <PackagePath>images\tree1.png</PackagePath>
+      <Modified>2014-09-23T06:39:53.860</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\tree2.png">
+      <PackagePath>images\tree2.png</PackagePath>
+      <Modified>2014-09-23T06:46:45.523</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\tree3.png">
+      <PackagePath>images\tree3.png</PackagePath>
+      <Modified>2014-09-23T06:44:56.770</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\waterarrow.png">
+      <PackagePath>images\waterarrow.png</PackagePath>
+      <Modified>2014-10-16T11:42:59.510</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\images\waterlily.png">
+      <PackagePath>images\waterlily.png</PackagePath>
+      <Modified>2014-10-16T11:47:39.746</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\Common\ReadMe.txt">
+      <PackagePath>Common\ReadMe.txt</PackagePath>
+      <Modified>2014-09-23T08:21:33.885</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2014-09-23T06:28:48.787</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2014-10-23T15:45:44.342</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\bin\Debug\GroupDetailPage1.xaml">
+      <PackagePath>GroupDetailPage1.xaml</PackagePath>
+      <Modified>2014-10-16T10:10:03.745</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\bin\Debug\GroupedItemsPage1.xaml">
+      <PackagePath>GroupedItemsPage1.xaml</PackagePath>
+      <Modified>2014-10-16T12:47:00.462</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\bin\Debug\ItemDetailPage1.xaml">
+      <PackagePath>ItemDetailPage1.xaml</PackagePath>
+      <Modified>2014-10-16T10:11:09.123</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\bin\Debug\ItemDetailPage2.xaml">
+      <PackagePath>ItemDetailPage2.xaml</PackagePath>
+      <Modified>2014-10-23T17:49:01.032</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\bin\Debug\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+      <Modified>2014-10-27T10:51:00.575</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\bin\Debug\SearchResultsPage1.xaml">
+      <PackagePath>SearchResultsPage1.xaml</PackagePath>
+      <Modified>2014-10-23T15:36:49.333</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Malya Rao\documents\visual studio 2012\Projects\Sahaya\Sahaya\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-10-23T17:08:41.513</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
